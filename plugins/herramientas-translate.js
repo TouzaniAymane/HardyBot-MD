@@ -12,7 +12,7 @@ const handler = async (m, {args, usedPrefix, command}) => {
   if (!args || !args[0]) return m.reply(msg);
   let lang = args[0];
   let text = args.slice(1).join(' ');
-  const defaultLang = 'es';
+  const defaultLang = 'ar';
   if ((args[0] || '').length !== 2) {
     lang = defaultLang;
     text = args.join(' ');
@@ -26,11 +26,11 @@ const handler = async (m, {args, usedPrefix, command}) => {
       const lol = await fetch(`https://api.lolhuman.xyz/api/translate/auto/${lang}?apikey=${lolkeysapi}&text=${text}`);
       const loll = await lol.json();
       const result2 = loll.result.translated;
-      await m.reply(`${tradutor.texto3 }` + result2);
+      await m.reply(result2);
     } catch {
       await m.reply(tradutor.texto2);
     }
   }
 };
-handler.command = /^(translate|traducir|trad)$/i;
+handler.command = /^(translate|tr|trad)$/i;
 export default handler;
