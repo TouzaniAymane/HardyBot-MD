@@ -17,7 +17,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
     // const pp = imagen7;
 
     // let vn = './media/menu.mp3'
-    const img = './Menu2.jpg';
+    const img = './hardy.jpg';
     const d = new Date(new Date + 3600000);
     const locale = 'es-ES';
     const week = d.toLocaleDateString(locale, { weekday: 'long' });
@@ -53,7 +53,6 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
   
   ▢ _${usedPrefix}menuaudios_
   ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_ (🔞)
   ▢ _${usedPrefix}lang_ ${tradutor.texto2}
   ▢ _${usedPrefix}langgroup_ ${tradutor.texto3}
   ▢ _${usedPrefix}glx_ ${tradutor.texto4 /** Este menú permanecerá aquí por un corto tiempo, hasta que la gente sepa */}
@@ -203,18 +202,15 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
  ▢ _${usedPrefix}stickerpack *<url>*_
  ▢ _${usedPrefix}wallpaper *<txt>*_ 
  ▢ _${usedPrefix}dapk2 *<url>*_
- ▢ _${usedPrefix}xnxxdl *<url>*_ (🔞)
- ▢ _${usedPrefix}xvideosdl *<url>*_ (🔞)
 
 
  ${tradutor.texto1[16]}
 
   ▢ _${usedPrefix}githubsearch *<txt>*_
   ▢ _${usedPrefix}pelisplus *<txt>*_
-  ▢ _${usedPrefix}modapk *<txt>*_
+  ▢ _${usedPrefix}apk *<txt>*_
   ▢ _${usedPrefix}stickersearch *<txt>*_
   ▢ _${usedPrefix}stickersearch2 *<txt>*_
-  ▢ _${usedPrefix}xnxxsearch *<txt>*_
   ▢ _${usedPrefix}animeinfo *<txt>*_
   ▢ _${usedPrefix}google *<txt>*_
   ▢ _${usedPrefix}letra *<txt>*_
