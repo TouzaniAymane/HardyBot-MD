@@ -11,7 +11,7 @@ global.botnumber = "212774265928"
 global.confirmCode = ""
 
 global.owner = [
-  ['212660131536', '👑 Hardy - Creator 👑', true]
+  ['212660131536', '👑 Aymane Touzani 👑', true]
 ];
 
 global.suittag = ['212660131536'];
